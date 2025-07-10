@@ -3,6 +3,7 @@ package com.rhuder.coolmod;
 import com.rhuder.coolmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,5 +14,7 @@ public class CoolMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+
+		FuelRegistry.INSTANCE.add(ModItems.URANIUM_INFUSED_COAL,3200);
 	}
 }
