@@ -1,6 +1,7 @@
 package com.rhuder.coolmod;
 
 import com.rhuder.coolmod.block.ModBlocks;
+import com.rhuder.coolmod.item.ModItemGroups;
 import com.rhuder.coolmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,8 @@ public class CoolMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 

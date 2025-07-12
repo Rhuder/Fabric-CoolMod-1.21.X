@@ -1,8 +1,11 @@
 {
   "item.coolmod.uranium_ingot": "Uranium Ingot",
   "item.coolmod.uranium_nugget": "Uranium Nugget",
+  "item.coolmod.raw_uranium": "Raw Uranium",
   "item.coolmod.uranium_infused_coal": "Uranium Infused Coal",
 
   "block.coolmod.uranium_block": "Block of Uranium",
-  "block.coolmod.uranium_ore": "Uranium Ore"
+  "block.coolmod.uranium_ore": "Uranium Ore",
+
+  "itemgroup.coolmod.coolmod_items": "Cool Mod Items"
 }

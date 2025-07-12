@@ -13,6 +13,7 @@ public class ModItems {
 
     public static final Item URANIUM_INGOT = registerItem("uranium_ingot", new Item(new Item.Settings()));
     public static final Item URANIUM_NUGGET = registerItem("uranium_nugget", new Item(new Item.Settings()));
+    public static final Item RAW_URANIUM = registerItem("raw_uranium", new Item(new Item.Settings()));
     public static final Item URANIUM_INFUSED_COAL = registerItem("uranium_infused_coal", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
@@ -21,12 +22,6 @@ public class ModItems {
 
     public static void registerModItems() {
         CoolMod.LOGGER.info("Registering Mod Items for " + CoolMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(URANIUM_INGOT);
-            fabricItemGroupEntries.add(URANIUM_NUGGET);
-            fabricItemGroupEntries.add(URANIUM_INFUSED_COAL);
-        });
 
     }
 }
