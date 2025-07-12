@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "uranium_ingot",
+  "ingredient": {
+    "item": "coolmod:raw_uranium"
+  },
+  "result": {
+    "id": "coolmod:uranium_ingot"
+  }
+}
