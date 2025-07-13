@@ -26,8 +26,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerBlasting(recipeExporter, URANIUM_INGOT_SMELTABLES, RecipeCategory.MISC, ModItems.URANIUM_INGOT, 0.25f, 100, "uranium_ingot");
 
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.URANIUM_INGOT, RecipeCategory.DECORATIONS, ModBlocks.URANIUM_BLOCK);
-        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.URANIUM_NUGGET, RecipeCategory.MISC, ModItems.URANIUM_INGOT);
-
 
     }
 }
