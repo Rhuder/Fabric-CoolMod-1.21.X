@@ -1,8 +1,10 @@
 {
   "item.coolmod.uranium_ingot": "Uranium Ingot",
+  "item.coolmod.supercharged_uranium_ingot": "SuperCharged Uranium Ingot",
   "item.coolmod.uranium_nugget": "Uranium Nugget",
   "item.coolmod.raw_uranium": "Raw Uranium",
   "item.coolmod.uranium_infused_coal": "Uranium Infused Coal",
+  "item.coolmod.supercharged_uranium_pickaxe": "Supercharged Uranium Pickaxe",
 
   "block.coolmod.uranium_block": "Block of Uranium",
   "block.coolmod.uranium_ore": "Uranium Ore",

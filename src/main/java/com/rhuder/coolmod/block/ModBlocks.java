@@ -35,10 +35,5 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         CoolMod.LOGGER.info("Registering Mod Blocks for " + CoolMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(URANIUM_BLOCK);
-            fabricItemGroupEntries.add(URANIUM_ORE);
-        });
     }
 }

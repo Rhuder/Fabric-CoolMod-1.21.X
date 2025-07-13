@@ -23,6 +23,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.URANIUM_BLOCK);
                         entries.add(ModBlocks.URANIUM_ORE);
                         entries.add(ModItems.RAW_URANIUM);
+                        entries.add(ModItems.SUPERCHARGED_URANIUM_INGOT);
+                        entries.add(ModItems.SUPERCHARGED_URANIUM_PICKAXE);
                     })
 
                     .build());

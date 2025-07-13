@@ -20,6 +20,8 @@ public class CoolMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+
 		FuelRegistry.INSTANCE.add(ModItems.URANIUM_INFUSED_COAL,3200);
+			
 	}
 }
