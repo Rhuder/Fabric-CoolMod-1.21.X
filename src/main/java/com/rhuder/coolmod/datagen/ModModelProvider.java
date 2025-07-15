@@ -26,7 +26,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SUPERCHARGED_URANIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.URANIUM_INFUSED_COAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_URANIUM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.SUPERCHARGED_URANIUM_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SUPERCHARGED_URANIUM_PICKAXE, Models.HANDHELD);
 
     }
 }
